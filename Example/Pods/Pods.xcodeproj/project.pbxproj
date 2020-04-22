@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		027D5601EA16EA15C864BCE26E20DAB4 /* Pods-podFTDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEDBA400B5BCF0406739D70C57ACE63 /* Pods-podFTDemo_Example-dummy.m */; };
+		21E35D7E2450220300AE865B /* DemoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E35D7C2450220300AE865B /* DemoViewController.h */; };
+		21E35D7F2450220300AE865B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E35D7D2450220300AE865B /* DemoViewController.m */; };
 		29B9C3328ADF933D9D282CA045EBCD8E /* Pods-podFTDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB9C2D0319E4F8376A2942A06E9D5C5 /* Pods-podFTDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8918709DD70E95CADE81165C2FC312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4F08F11C4606BDAD87F4520B3A14A44B /* podFTDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF8A7FDA82440A094CB2C3146C8118C /* podFTDemo-dummy.m */; };
 		7CD828C1F361E035975E6584A0AE346E /* Pods-podFTDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1478C48C5A4DD036371054FD087A0B22 /* Pods-podFTDemo_Tests-dummy.m */; };
-		8F2B73DD94E5F4BC3ABCDD13991050FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E031717877BCC52CD729CA88BA6323 /* ReplaceMe.m */; };
 		AE5C495DC80F7201435AFE2930F92368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AF69350AEB77E6B424045D564CEF4F21 /* Pods-podFTDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7E89E0AE6CCD64FC3B09AABBC5DDE2 /* Pods-podFTDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3DBBEB939C803951EFFAE3138D0AD4C /* podFTDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 018F0EBEC4713C6FB373B47F57A46EDA /* podFTDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,8 +40,9 @@
 /* Begin PBXFileReference section */
 		018F0EBEC4713C6FB373B47F57A46EDA /* podFTDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podFTDemo-umbrella.h"; sourceTree = "<group>"; };
 		1478C48C5A4DD036371054FD087A0B22 /* Pods-podFTDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podFTDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		1865232A01BC9883AB16C0ED6006C42D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		27E031717877BCC52CD729CA88BA6323 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = podFTDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1865232A01BC9883AB16C0ED6006C42D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21E35D7C2450220300AE865B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = podFTDemo/Classes/DemoViewController.h; sourceTree = "<group>"; };
+		21E35D7D2450220300AE865B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = podFTDemo/Classes/DemoViewController.m; sourceTree = "<group>"; };
 		2A7E89E0AE6CCD64FC3B09AABBC5DDE2 /* Pods-podFTDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podFTDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		2C4A5B5C2426598D39332CAD5C3604E4 /* podFTDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "podFTDemo-Info.plist"; sourceTree = "<group>"; };
 		2E8422BF6704FA8009A5496A85CFA83A /* podFTDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podFTDemo-prefix.pch"; sourceTree = "<group>"; };
@@ -49,8 +51,8 @@
 		367FE7310D005A7621561A421EE71721 /* Pods-podFTDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podFTDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		4DB9C2D0319E4F8376A2942A06E9D5C5 /* Pods-podFTDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podFTDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6092B8B2C16E673F392B0CCA9E203FA3 /* Pods-podFTDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podFTDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		624521FFD78E20AB4472F506A7225A09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		704F548676AB54AC1E927C943234BE5F /* podFTDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = podFTDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		624521FFD78E20AB4472F506A7225A09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		704F548676AB54AC1E927C943234BE5F /* podFTDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = podFTDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73D30D04AA2B42A5B3175AB65E33D75A /* Pods-podFTDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podFTDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		757E2F140C47ABD5056816CCCBBA718F /* Pods-podFTDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podFTDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7AF8A7FDA82440A094CB2C3146C8118C /* podFTDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "podFTDemo-dummy.m"; sourceTree = "<group>"; };
@@ -58,15 +60,15 @@
 		82AF4040D0546F40D594B565C7C1C29B /* Pods-podFTDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podFTDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8BEBF7FB44EAC53B67A32A8C3ECDE6A6 /* Pods-podFTDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podFTDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		8C0458DD4EE275DDE63AD150109D3F0A /* Pods-podFTDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podFTDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		907C6AAB9C162D94C21274C477F7A3A2 /* podFTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = podFTDemo.framework; path = podFTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907C6AAB9C162D94C21274C477F7A3A2 /* podFTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = podFTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9922A27689B197EA3BB64E36BDF8E39D /* podFTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podFTDemo.debug.xcconfig; sourceTree = "<group>"; };
-		9B5DDF67487F33535DA362DC6657DC26 /* Pods_podFTDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_podFTDemo_Example.framework; path = "Pods-podFTDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5DDF67487F33535DA362DC6657DC26 /* Pods_podFTDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podFTDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0363935F83EE82BE22B4C1152C95754 /* Pods-podFTDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-podFTDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B5182E021B13192DDBA14830B1002ED7 /* Pods-podFTDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podFTDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BDEDBA400B5BCF0406739D70C57ACE63 /* Pods-podFTDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podFTDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		C477CEDAC97A94A9981F632A930B356A /* podFTDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = podFTDemo.modulemap; sourceTree = "<group>"; };
-		CEA07C2B1150496A97A85E18DF9CEE82 /* Pods_podFTDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_podFTDemo_Tests.framework; path = "Pods-podFTDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA07C2B1150496A97A85E18DF9CEE82 /* Pods_podFTDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podFTDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB8DAF637C312004EFAD506BDD05797 /* Pods-podFTDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podFTDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F255DE33DF76F656459646319BF33E41 /* Pods-podFTDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podFTDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F96BA2DB10B42F32541CE9CB709CF444 /* Pods-podFTDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podFTDemo_Example.modulemap"; sourceTree = "<group>"; };
@@ -103,7 +105,8 @@
 		07863F0FA02260A8229A83D4EC089408 /* podFTDemo */ = {
 			isa = PBXGroup;
 			children = (
-				27E031717877BCC52CD729CA88BA6323 /* ReplaceMe.m */,
+				21E35D7C2450220300AE865B /* DemoViewController.h */,
+				21E35D7D2450220300AE865B /* DemoViewController.m */,
 				6D5CC147C167E6E404BA49CCB6A3280F /* Pod */,
 				5989F59720EB1A22E20E94001041F089 /* Support Files */,
 			);
@@ -230,6 +233,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E35D7E2450220300AE865B /* DemoViewController.h in Headers */,
 				B3DBBEB939C803951EFFAE3138D0AD4C /* podFTDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F08F11C4606BDAD87F4520B3A14A44B /* podFTDemo-dummy.m in Sources */,
-				8F2B73DD94E5F4BC3ABCDD13991050FF /* ReplaceMe.m in Sources */,
+				21E35D7F2450220300AE865B /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,8 +595,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
