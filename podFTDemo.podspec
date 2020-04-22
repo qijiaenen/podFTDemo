@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podFTDemo'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'test podFTDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-0.1.0 podFTDemo no dependency other SDK
+0.1.2 podFTDemo no dependency other SDK
                        DESC
 
   s.homepage         = 'https://github.com/qijiaenen/podFTDemo'
@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'podFTDemo/Classes/**/*'
+  s.source_files = 'podFTDemo/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'podFTDemo' => ['podFTDemo/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'AFNetworking', '~> 2.3'
 end

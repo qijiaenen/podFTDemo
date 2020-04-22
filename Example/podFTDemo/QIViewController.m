@@ -7,7 +7,7 @@
 //
 
 #import "QIViewController.h"
-
+#import <DemoViewController.h>
 @interface QIViewController ()
 
 @end

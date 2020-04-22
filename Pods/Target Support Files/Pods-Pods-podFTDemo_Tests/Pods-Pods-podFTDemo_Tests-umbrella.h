@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "DemoViewController.h"
 
-FOUNDATION_EXPORT double podFTDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char podFTDemoVersionString[];
+FOUNDATION_EXPORT double Pods_Pods_podFTDemo_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Pods_podFTDemo_TestsVersionString[];
 

@@ -1,8 +1,8 @@
 {
   "name": "podFTDemo",
-  "version": "0.1.0",
-  "summary": "A short description of podFTDemo.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "test podFTDemo.",
+  "description": "0.1.0 podFTDemo no dependency other SDK",
   "homepage": "https://github.com/qijiaenen/podFTDemo",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/qijiaenen/podFTDemo.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "podFTDemo/Classes/**/*"
+  "source_files": "podFTDemo/Classes/**/*.h"
 }
