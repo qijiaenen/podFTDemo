@@ -1,5 +1,5 @@
 PODS:
-  - podFTDemo (0.1.1)
+  - podFTDemo (0.1.3)
 
 DEPENDENCIES:
   - podFTDemo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  podFTDemo: f9f2b5b3167ad3b67d4b5fc119d5b3748da3a781
+  podFTDemo: 3614e8c75bdbb5c96093206f62960a92efb4041a
 
 PODFILE CHECKSUM: a2e60e1fc4b51277f705fcc4b944971f9824462f
 
