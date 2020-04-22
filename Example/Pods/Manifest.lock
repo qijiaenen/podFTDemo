@@ -1,0 +1,16 @@
+PODS:
+  - podFTDemo (0.1.0)
+
+DEPENDENCIES:
+  - podFTDemo (from `../`)
+
+EXTERNAL SOURCES:
+  podFTDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  podFTDemo: f76cb553e400c529f59af16d9332ab4295af6f48
+
+PODFILE CHECKSUM: a2e60e1fc4b51277f705fcc4b944971f9824462f
+
+COCOAPODS: 1.9.1

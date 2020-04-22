@@ -1,0 +1,6 @@
+framework module podFTDemo {
+  umbrella header "podFTDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
