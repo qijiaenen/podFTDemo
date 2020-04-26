@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podFTDemo'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'test podFTDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-0.1.6
+0.1.7
 1.podFTDemo no dependency other SDK
 2.添加图片
                        DESC
