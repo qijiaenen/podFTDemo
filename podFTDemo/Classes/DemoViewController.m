@@ -8,7 +8,7 @@
 
 #import "DemoViewController.h"
 //#import "UIImage+QIImage.h"
-//#import "QIImage.h"
+#import "QIImage.h"
 @interface DemoViewController ()
 
 
