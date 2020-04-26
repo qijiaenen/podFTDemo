@@ -17,11 +17,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIImageView * imageView = [[UIImageView alloc]init];
+    imageView.image = [UIImage imageNamed:@"Examplemultiple_choice_right"];
+    imageView.userInteractionEnabled = YES;
+    [imageView addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(actionClick)]];
+    imageView.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:imageView];
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)actionClick{
     DemoViewController * vc = [[DemoViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+   
 }
 
 - (void)didReceiveMemoryWarning

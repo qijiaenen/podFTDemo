@@ -1,8 +1,8 @@
 {
   "name": "podFTDemo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "test podFTDemo.",
-  "description": "0.1.4 podFTDemo no dependency other SDK",
+  "description": "0.1.5 podFTDemo no dependency other SDK",
   "homepage": "https://github.com/qijiaenen/podFTDemo",
   "license": {
     "type": "MIT",
@@ -13,11 +13,16 @@
   },
   "source": {
     "git": "https://github.com/qijiaenen/podFTDemo.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "podFTDemo/Classes/**/*",
-  "public_header_files": "Pod/Classes/*.h"
+  "resource_bundles": {
+    "Images": [
+      "podFTDemo/Assets/*.xcassets"
+    ]
+  },
+  "public_header_files": "podFTDemo/Classes/**/*.h"
 }

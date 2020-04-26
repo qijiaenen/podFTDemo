@@ -7,8 +7,10 @@
 //
 
 #import "DemoViewController.h"
-
+//#import "UIImage+QIImage.h"
+//#import "QIImage.h"
 @interface DemoViewController ()
+
 
 @end
 
@@ -16,10 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
-    
+    UIImageView * imageView = [[UIImageView alloc]init];
+    imageView.backgroundColor = [UIColor redColor];
+    imageView.image = [QIImage QIImageNamed:@"Index_multiple_selected"];
+    imageView.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:imageView];
 }
-
-
 
 @end
