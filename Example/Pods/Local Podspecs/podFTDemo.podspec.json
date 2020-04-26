@@ -1,8 +1,8 @@
 {
   "name": "podFTDemo",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "summary": "test podFTDemo.",
-  "description": "0.1.7\n1.podFTDemo no dependency other SDK\n2.添加图片",
+  "description": "0.2.0\n1.依赖第三方库\n2.添加图片",
   "homepage": "https://github.com/qijiaenen/podFTDemo",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/qijiaenen/podFTDemo.git",
-    "tag": "0.1.7"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,7 +24,7 @@
       "podFTDemo/Assets/*.xcassets"
     ]
   },
-  "public_header_files": "podFTDemo/Classes/**/*.h",
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "AFNetworking": [
 
