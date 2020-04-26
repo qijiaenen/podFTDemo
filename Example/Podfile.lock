@@ -1,16 +1,37 @@
 PODS:
-  - podFTDemo (0.1.6)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - podFTDemo (0.1.7):
+    - AFNetworking
 
 DEPENDENCIES:
   - podFTDemo (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   podFTDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  podFTDemo: bc6259651112883008231ac1c14aae0d1bd094e9
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  podFTDemo: 0a9cd1a571bfd5895787870b88a39ebc440cc849
 
-PODFILE CHECKSUM: a2e60e1fc4b51277f705fcc4b944971f9824462f
+PODFILE CHECKSUM: ea4bbe9ff2cf2127167014a575164fdc5efc02a7
 
 COCOAPODS: 1.9.1
