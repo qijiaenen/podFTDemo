@@ -1,9 +1,10 @@
 use_frameworks!
-#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'podFTDemo_Example' do
   pod 'podFTDemo', :path => '../'
+  pod 'AFNetworking', '~> 3.2.1'
 
   target 'podFTDemo_Tests' do
     inherit! :search_paths
