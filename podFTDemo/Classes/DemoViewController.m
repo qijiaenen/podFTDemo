@@ -45,7 +45,8 @@
     manager.responseSerializer.acceptableContentTypes=[NSSet setWithObjects:@"application/xml", @"text/xml",@"application/json", @"text/json",@"text/javascript",@"text/html",@"text/plain",nil];
     //设置请求超时
     manager.requestSerializer.timeoutInterval=30;
-    NSURLSessionDataTask *currentOperation = [manager GET:path parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    [manager GET:path parameters:nil headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+        
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"%@",responseObject);
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];

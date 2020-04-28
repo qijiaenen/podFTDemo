@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podFTDemo'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'test podFTDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-0.2.3
+0.2.4
 1.依赖第三方库
 2.添加图片
 
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/qijiaenen/podFTDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'podFTDemo/Classes/**/*'
   
