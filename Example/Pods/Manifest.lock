@@ -14,11 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - podFTDemo (0.2.1):
+  - podFTDemo (0.2.2):
     - AFNetworking (~> 3.2.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.2.1)
   - podFTDemo (from `../`)
 
 SPEC REPOS:
@@ -31,8 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  podFTDemo: 43be3f7df1d4c7e666bd34be9d07aa5a97ccf8ac
+  podFTDemo: 8a5da85ea7bd8efc95a69305b0e2e0af4a8332ab
 
-PODFILE CHECKSUM: a26be4df3e5af50a09d515a96c4b1079cbe8a152
+PODFILE CHECKSUM: f4e2fe667d2dae5b05979321bc2ce73473d9069c
 
 COCOAPODS: 1.9.1

@@ -1,8 +1,8 @@
 {
   "name": "podFTDemo",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "test podFTDemo.",
-  "description": "0.2.1\n1.依赖第三方库\n2.添加图片",
+  "description": "0.2.2\n1.依赖第三方库\n2.添加图片",
   "homepage": "https://github.com/qijiaenen/podFTDemo",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/qijiaenen/podFTDemo.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"
