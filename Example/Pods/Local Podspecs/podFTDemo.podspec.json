@@ -24,7 +24,7 @@
       "podFTDemo/Assets/*.xcassets"
     ]
   },
-  "public_header_files": "Pod/Classes/**/*.h",
+  "public_header_files": "podFTDemo/Classes/**/*.h",
   "dependencies": {
     "AFNetworking": [
 
